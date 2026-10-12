@@ -4,137 +4,288 @@ Configuration file: /home/runner/work/LJT-Homepage/LJT-Homepage/_config.yml
        Destination: /home/runner/work/LJT-Homepage/LJT-Homepage/_site
  Incremental build: disabled. Enable with --incremental
       Generating... 
-[31m             Error: could not read file /home/runner/work/LJT-Homepage/LJT-Homepage/_publications/2023-ceval.md: Invalid date '2023': Document '_publications/2023-ceval.md' does not have a valid date in the YAML front matter.[0m
-[31m             ERROR: YOUR SITE COULD NOT BE BUILT:[0m
-[31m                    ------------------------------------[0m
-[31m                    Invalid date '2023': Document '_publications/2023-ceval.md' does not have a valid date in the YAML front matter.[0m
-[31m                    ------------------------------------------------[0m
-[31m      Jekyll 4.4.1   Please append `--trace` to the `build` command [0m
-[31m                     for any additional information or backtrace. [0m
-[31m                    ------------------------------------------------[0m
-/home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:33:in `exit': exit (SystemExit)
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:33:in `rescue in process_site'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:27:in `process_site'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:65:in `build'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:36:in `process'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `each'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:18:in `block (2 levels) in init_with_program'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/exe/jekyll:15:in `<top (required)>'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/bin/jekyll:25:in `load'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/bin/jekyll:25:in `<top (required)>'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli/exec.rb:58:in `load'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli/exec.rb:58:in `kernel_load'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli/exec.rb:23:in `run'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli.rb:486:in `exec'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli.rb:31:in `dispatch'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli.rb:25:in `start'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/gems/3.1.0/gems/bundler-2.3.27/libexec/bundle:48:in `block in <top (required)>'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/friendly_errors.rb:120:in `with_friendly_errors'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/gems/3.1.0/gems/bundler-2.3.27/libexec/bundle:36:in `<top (required)>'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/bin/bundle:25:in `load'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/bin/bundle:25:in `<main>'
-/home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/utils.rb:134:in `rescue in parse_date': Invalid date '2023': Document '_publications/2023-ceval.md' does not have a valid date in the YAML front matter. (Jekyll::Errors::InvalidDateError)
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/utils.rb:130:in `parse_date'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/document.rb:470:in `merge_date!'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/document.rb:78:in `merge_data!'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/document.rb:487:in `read_content'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/document.rb:307:in `read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/collection.rb:219:in `read_document'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/collection.rb:63:in `block in read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/collection.rb:58:in `each'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/collection.rb:58:in `read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/readers/collection_reader.rb:19:in `block in read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/readers/collection_reader.rb:18:in `each_value'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/readers/collection_reader.rb:18:in `read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/reader.rb:19:in `read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/site.rb:181:in `read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/site.rb:78:in `process'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:28:in `process_site'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:65:in `build'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:36:in `process'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `each'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:18:in `block (2 levels) in init_with_program'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/exe/jekyll:15:in `<top (required)>'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/bin/jekyll:25:in `load'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/bin/jekyll:25:in `<top (required)>'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli/exec.rb:58:in `load'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli/exec.rb:58:in `kernel_load'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli/exec.rb:23:in `run'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli.rb:486:in `exec'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli.rb:31:in `dispatch'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli.rb:25:in `start'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/gems/3.1.0/gems/bundler-2.3.27/libexec/bundle:48:in `block in <top (required)>'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/friendly_errors.rb:120:in `with_friendly_errors'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/gems/3.1.0/gems/bundler-2.3.27/libexec/bundle:36:in `<top (required)>'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/bin/bundle:25:in `load'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/bin/bundle:25:in `<main>'
-/opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/time.rb:268:in `local': argument out of range (ArgumentError)
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/time.rb:268:in `make_time'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/time.rb:383:in `parse'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/utils.rb:132:in `parse_date'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/document.rb:470:in `merge_date!'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/document.rb:78:in `merge_data!'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/document.rb:487:in `read_content'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/document.rb:307:in `read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/collection.rb:219:in `read_document'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/collection.rb:63:in `block in read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/collection.rb:58:in `each'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/collection.rb:58:in `read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/readers/collection_reader.rb:19:in `block in read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/readers/collection_reader.rb:18:in `each_value'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/readers/collection_reader.rb:18:in `read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/reader.rb:19:in `read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/site.rb:181:in `read'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/site.rb:78:in `process'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:28:in `process_site'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:65:in `build'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:36:in `process'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `each'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/lib/jekyll/commands/build.rb:18:in `block (2 levels) in init_with_program'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/gems/jekyll-4.4.1/exe/jekyll:15:in `<top (required)>'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/bin/jekyll:25:in `load'
-	from /home/runner/work/LJT-Homepage/LJT-Homepage/vendor/bundle/ruby/3.1.0/bin/jekyll:25:in `<top (required)>'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli/exec.rb:58:in `load'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli/exec.rb:58:in `kernel_load'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli/exec.rb:23:in `run'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli.rb:486:in `exec'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli.rb:31:in `dispatch'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/cli.rb:25:in `start'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/gems/3.1.0/gems/bundler-2.3.27/libexec/bundle:48:in `block in <top (required)>'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/3.1.0/bundler/friendly_errors.rb:120:in `with_friendly_errors'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/lib/ruby/gems/3.1.0/gems/bundler-2.3.27/libexec/bundle:36:in `<top (required)>'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/bin/bundle:25:in `load'
-	from /opt/hostedtoolcache/Ruby/3.1.7/x64/bin/bundle:25:in `<main>'
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │     "vendor/font-awesome/fontawesome",
+  │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/fontawesome.scss 4:5  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │     "vendor/font-awesome/solid",
+  │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/fontawesome.scss 5:5  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │     "vendor/font-awesome/brands"
+  │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/fontawesome.scss 6:5  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │ @import 'functions';
+  │         ^^^^^^^^^^^
+  ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/font-awesome/fontawesome.scss 9:9  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/fontawesome.scss 4:5                 root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+10 │ @import 'variables';
+   │         ^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/font-awesome/fontawesome.scss 10:9  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/fontawesome.scss 4:5                  root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($dividend > 0 and $divisor > 0): 1; else: -1)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+35 │   $sign: if($dividend > 0 and $divisor > 0, 1, -1);
+   │          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/font-awesome/_functions.scss 35:10  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/font-awesome/fontawesome.scss 9:9   @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/fontawesome.scss 4:5                  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │     #{$fa-icon-property}: unquote("\"#{ $icon }\"");
+  │                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/font-awesome/_icons.scss 9:27       @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/font-awesome/fontawesome.scss 20:9  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/fontawesome.scss 4:5                  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+29 │   .#{$fa-css-prefix}-#{$name} { #{$fa-icon-property}: unquote("\"#{ $icon }\""); }
+   │                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/font-awesome/brands.scss 29:55  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/fontawesome.scss 6:5              root stylesheet
+WARNING: 15 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │     "vendor/breakpoint/breakpoint",
+  │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 9:5  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │     "themes",
+   │     ^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 11:5  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │     "theme/default_light",
+   │     ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 12:5  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+13 │     "theme/default_dark",
+   │     ^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 13:5  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+15 │     "include/mixins",
+   │     ^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 15:5  root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass(list-separator($query) == "comma"): true; else: false)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+44 │     $or-list: if(list-separator($query) == 'comma', true, false);
+   │               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_parsers.scss 44:15    @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_breakpoint.scss 29:9  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 9:5                       root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($i == 1): ""; else: ", ")
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+72 │           $query-string: $query-string + if($i == 1, '', ', ') + breakpoint-parse(nth($query, $i));
+   │                                          ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_parsers.scss 72:42    @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_breakpoint.scss 29:9  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 9:5                       root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.function-exists instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+10 │ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
+   │               ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_parsers.scss 10:15    @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_breakpoint.scss 29:9  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 9:5                       root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.index instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+29 │   @if (str-index($setting, '-') or str-index($setting, '_')) and str-index($setting, ' ') == null {
+   │        ^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_settings.scss 29:8   breakpoint-set()
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_settings.scss 37:23  breakpoint-change()
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_settings.scss 41:3   breakpoint-set()
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/_themes.scss 51:1                       @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 11:5                     root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.index instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+29 │   @if (str-index($setting, '-') or str-index($setting, '_')) and str-index($setting, ' ') == null {
+   │                                    ^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_settings.scss 29:36  breakpoint-set()
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_settings.scss 37:23  breakpoint-change()
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_settings.scss 41:3   breakpoint-set()
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/_themes.scss 51:1                       @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 11:5                     root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+32 │   $breakpoint: map-merge($breakpoint, ($setting: $value)) !global;
+   │                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_settings.scss 32:16  breakpoint-set()
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_settings.scss 37:23  breakpoint-change()
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/breakpoint/_settings.scss 41:3   breakpoint-set()
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/_themes.scss 51:1                       @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 11:5                     root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ $dark-gray                  : mix(#000, $gray, 40%);
+  │                               ^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/theme/_default_light.scss 7:31  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 12:5             root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($i <= $length): append($_return, nth($list, $i)); else: $_return)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+15 │     $_return: if($i <= $length, append($_return, nth($list, $i)), $_return);
+   │               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/susy/su/_utilities.scss 15:15  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/susy/_su.scss 4:9              @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/susy/language/_susy.scss 6:9   @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/_susy.scss 4:9                 @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 16:5                        root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($_level): map-merge($_level, $_merge); else: $_merge)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+59 │     $_return: if($_level, map-merge($_level, $_merge), $_merge);
+   │               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/susy/su/_utilities.scss 59:15  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/susy/_su.scss 4:9              @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/susy/language/_susy.scss 6:9   @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/_susy.scss 4:9                 @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 16:5                        root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(not sass(unitless($col)): true)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+21 │         $fail: $fail or if(unitless($col), null, true);
+   │                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/susy/su/_validation.scss 21:25  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/susy/_su.scss 6:9               @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/susy/language/_susy.scss 6:9    @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/vendor/susy/_susy.scss 4:9                  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 16:5                         root stylesheet
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 50%)
+color.adjust($color, $lightness: 50%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+385 │   border-color: lighten(#000,50);
+    │                 ^^^^^^^^^^^^^^^^
+    ╵
+    /home/runner/work/LJT-Homepage/LJT-Homepage/_sass/layout/_forms.scss 385:17  @import
+    /home/runner/work/LJT-Homepage/LJT-Homepage/assets/css/main.scss 30:5        root stylesheet
+WARNING: 324 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    done in 0.427 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+grep: _site/publications/index.html: No such file or directory
