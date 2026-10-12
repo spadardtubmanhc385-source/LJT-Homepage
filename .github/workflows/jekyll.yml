@@ -3,10 +3,12 @@ name: Build LJT Homepage
 on:
   push:
     branches: ["master"]
+    paths-ignore:
+      - "BUILD_LOG.txt"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: "build"
@@ -24,11 +26,27 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
       - name: Build with Jekyll
-        run: bundle exec jekyll build
-        env:
-          JEKYLL_ENV: production
+        run: |
+          bundle exec jekyll build > build.log 2>&1
+          status=$?
+          cat build.log
+          exit $status
       - name: Upload site artifact
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: LJT-Homepage
           path: _site
+      - name: Publish build log
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          content=$(base64 -w0 build.log)
+          api="repos/${{ github.repository }}/contents/BUILD_LOG.txt"
+          if gh api "$api" >/dev/null 2>&1; then
+            sha=$(gh api "$api" --jq .sha)
+            gh api -X PUT "$api" -f sha="$sha" -f message="Update Jekyll build log" -f content="$content" -f branch=master
+          else
+            gh api -X PUT "$api" -f message="Add Jekyll build log" -f content="$content" -f branch=master
+          fi
