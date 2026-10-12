@@ -31,6 +31,41 @@ jobs:
           status=$?
           cat build.log
           exit $status
+      - name: Verify rendered content
+        run: |
+          {
+            for title in \
+              "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond" \
+              "On the Perception Bottleneck of VLMs for Chart Understanding" \
+              "On the Universal Truthfulness Hyperplane Inside LLMs" \
+              "In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation" \
+              "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models" \
+              "Composing Parameter-Efficient Modules with Arithmetic Operations"; do
+              grep -Fq "$title" _site/publications/index.html
+              grep -Fq "$title" _site/index.html
+            done
+            for detail in \
+              2025-synlogic \
+              2025-perception-bottleneck-chart-understanding \
+              2024-universal-truthfulness-hyperplane \
+              2024-in-context-sharpness \
+              2023-ceval \
+              2023-composing-parameter-efficient-modules; do
+              test -f "_site/publication/$detail/index.html"
+            done
+            grep -Fq "Research Experience" _site/index.html
+            grep -Fq "Skills" _site/index.html
+            grep -Fq "Contact" _site/index.html
+            grep -Fq "Zhiyuan Honor Scholarship" _site/index.html
+            grep -Fq "jliugi@connect.ust.hk" _site/index.html
+            grep -Fq "github.com/Vicent0205" _site/index.html
+            grep -Fq "tbK9jl4AAAAJ" _site/index.html
+            grep -Fq "junteng88716710" _site/index.html
+            grep -Fq "MINIMAX" _site/cv/index.html
+            grep -Fq "Tencent WXG" _site/cv/index.html
+            grep -Fq "Shanghai AI Lab" _site/cv/index.html
+            echo "All rendered-content checks passed."
+          } >> build.log 2>&1
       - name: Upload site artifact
         if: success()
         uses: actions/upload-artifact@v4
